@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "ok"
+    return "This is a sample Flask Application"
 
 
 @app.route("/services/service-2")
